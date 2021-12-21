@@ -1,0 +1,27 @@
+.App{
+  
+  text-align: center;
+  
+}
+.header{
+  text-align: center;
+}
+.cnt p {
+  
+  
+  
+  
+}
+.navbar button {
+
+  width: 200px;
+  margin: 20px;
+}
+.frm input {
+
+  border-radius: 20px;
+  border: 1px solid black;
+  height: 50px;
+  width: 300px;
+  margin: 10px;
+}
