@@ -17,11 +17,11 @@ Router.post('/addtask',(req,res) => {
       return res.json({data:addtask})
 })
 
-Router.get('/gettask', async(req,res) => {
+Router.post('/gettask', async(req,res) => {
 
-    const uname = req.body
-    console.log(uname)
-    const getdata = await taskModel.find(uname)
+    const taskuser = req.body
+    console.log("username",taskuser)
+    const getdata = await taskModel.find(taskuser)
 
     return res.json({data:getdata})
 
